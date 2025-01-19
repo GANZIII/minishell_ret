@@ -13,7 +13,7 @@
 #include "minishell.h"
 #include "eval/eval.h"
 
-struct s_shell_state	g_shell_state;
+//struct s_shell_state	g_shell_state;
 
 int	skip(char *line)
 {

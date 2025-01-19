@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -Wall -Wextra -Werror 
+#CFLAGS = -Wall -Wextra -Werror 
 NAME = libft.a
 
 SRCS = ft_memset.c ft_memmove.c  ft_memcpy.c ft_strlen.c ft_isprint.c \
@@ -18,7 +18,7 @@ $(NAME): $(OBJS)
 	ar rsc libft.a $(OBJS) 
 
 .c.o:
-	$(CC) $(CFLAGS) -c $< -o $@  -fPIE
+	$(CC)  -c $< -o $@  -fPIE
 
 clean:
 	rm -f $(OBJS) $(BONUS_OBJS)

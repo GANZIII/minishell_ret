@@ -15,13 +15,13 @@
 void	*ft_memmove(void *s1, const void *s2, size_t n)
 {
 	int		idx;
-	int		diff;
+//	int		diff;
 	char	*desp;
 	char	*srcp;
 
-	diff = (int)s1 - (int)s2;
-	if (diff < 0)
-		return (ft_memcpy(s1, s2, n));
+//	diff = (int)s1 - (int)s2;
+//	if (diff < 0)
+//		return (ft_memcpy(s1, s2, n));
 	desp = (char *)s1;
 	srcp = (char *)s2;
 	if (desp == NULL && srcp == NULL)

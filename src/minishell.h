@@ -26,7 +26,7 @@ typedef struct s_shell_state {
 	int		orig_stdin;
 }t_shell_state;
 
-t_shell_state	g_shell_state;
+extern t_shell_state	g_shell_state;
 
 /*
 TOKEN LESS GREAT DLESS DGREAT PIPE
